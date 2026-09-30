@@ -1,0 +1,82 @@
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Whole page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+/* Navigation hover */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* All sections */
+section {
+    padding: 60px;
+    text-align: center;
+}
+
+/* Home */
+#home {
+    background-color: lightblue;
+    min-height: 300px;
+}
+
+/* About */
+#about {
+    background-color: lightgray;
+}
+
+/* Skills */
+#skills {
+    background-color: lightyellow;
+}
+
+/* Projects */
+#projects {
+    background-color: lightgreen;
+}
+
+/* Contact */
+#contact {
+    background-color: lightpink;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Button hover */
+button:hover {
+    background-color: #222;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
